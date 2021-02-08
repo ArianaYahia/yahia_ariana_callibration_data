@@ -1,7 +1,7 @@
 while (true) {
-    console.log(input.lightLevel() + 350)
-    if (input.lightLevel() + 350 > 1500) {
-        light.showAnimation(light.rainbowAnimation, 100)
+    console.log(input.soundLevel() + 350)
+    if (input.soundLevel() + 350 > 1500) {
+        music.magicWand.playUntilDone()
     }
     
 }
