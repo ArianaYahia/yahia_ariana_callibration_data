@@ -1,6 +1,6 @@
 while (true) {
-    console.log(input.soundLevel() + 350)
-    if (input.soundLevel() + 350 > 1500) {
+    console.log(input.temperature(TemperatureUnit.Fahrenheit) + 3.9)
+    if (input.temperature(TemperatureUnit.Fahrenheit) + 3.9 > 85) {
         music.magicWand.playUntilDone()
     }
     

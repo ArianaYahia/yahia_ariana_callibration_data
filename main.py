@@ -1,4 +1,6 @@
 while True:
-    print(input.sound_level() + 350)
-    if input.sound_level()+ 350 > 1500:
+    print(input.temperature(TemperatureUnit.FAHRENHEIT)+3.9)
+    if input.temperature(TemperatureUnit.FAHRENHEIT)+3.9 > 85:
         music.magic_wand.play_until_done()
+
+
